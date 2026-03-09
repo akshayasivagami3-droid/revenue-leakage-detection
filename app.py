@@ -5,7 +5,8 @@ missing_claims = data[data["Claim_Submitted"] == "No"]
 data["Underpaid"] =
 data["Expected_Amount"] -
 data["Paid_Amount"]
-underpaid_claims = data[data["Underpaid"] > 0]
+underpaid_claims = data[data["Underpaid"]
+> 0]
 st.title("AI Revenue Leakage Detection System")
 st.subheader("Missing Claims")
 st.write(missing_claims)
