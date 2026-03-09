@@ -3,7 +3,8 @@ import streamlit as st
 
 data = pd.read_csv("dataset/hospital_billing.csv")
 
-missing_claims = data[data["Claim_Submitted"] == "No"]
+missing_claims =
+data[data["Claim_Submitted"] == "No"]
 
 data["Underpaid"] = 
 data["Expected_Amount"] - 
