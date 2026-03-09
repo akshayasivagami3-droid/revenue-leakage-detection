@@ -1,0 +1,6 @@
+Patient_ID,Procedure,CPT_Code,Claim_Submitted,Expected_Amount,Paid_Amount
+101,Xray,71020,No,2000,0
+102,Blood Test,80050,Yes,1500,1200
+103,ECG,93000,Yes,1000,1000
+104,Xray,71020,Yes,2000,1500
+105,Blood Test,80050,No,1500,0
