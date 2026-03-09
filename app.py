@@ -1,7 +1,8 @@
 import pandas as pd
 import streamlit as st
 
-data = pd.read_csv("dataset/hospital_billing.csv")
+data = pd.read_csv("dataset/
+hospital_billing.csv")
 
 missing_claims =
 data[data["Claim_Submitted"] == "No"]
@@ -10,7 +11,8 @@ data["Underpaid"] =
 data["Expected_Amount"] - 
 data["Paid_Amount"]
 
-underpaid_claims = data[data["Underpaid"] > 0]
+underpaid_claims = data[data["Underpaid"]
+> 0]
 
 st.title("AI Revenue Leakage Detection System")
 
